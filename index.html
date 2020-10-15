@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <main>Opening Service</main>
+        <div id="link">
+            <a id="email"></a>
+        </div>
+        <script>
+            var url_string = window.location.href
+            var url = new URL(url_string)
+            var emailAddress = url.searchParams.get("mail")
+            var a = document.getElementById("email")
+            a.setAttribute("href", "mailto:" + emailAddress)
+            a.click()
+            setTimeout(() => {
+                document.close()
+            }, 500);
+        </script>
+    </body>
+</html>
