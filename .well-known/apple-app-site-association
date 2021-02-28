@@ -5,7 +5,7 @@
     {
         "appID": "HYA6JCR3E6.com.mikolbi",
         "paths": [
-          "/MainTabNavigation/ServiciosStack/Recharge/*", "/test/*"
+          "*"
         ]
       },
       {
