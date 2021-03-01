@@ -9,6 +9,12 @@
         ]
       },
       {
+        "appID": "6T87TH788S.com.mikolbi",
+        "paths": [
+          "*"
+        ]
+      },
+      {
         "appID": "V6K5DXY8Y8.com.mikolbi.app",
         "paths": [
           "/MainTabNavigation/ServiciosStack/Recharge/*"
