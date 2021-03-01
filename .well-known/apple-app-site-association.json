@@ -2,10 +2,28 @@
   "applinks": {
     "apps": [],
     "details": [
-    {
+        {
         "appID": "HYA6JCR3E6.com.mikolbi",
         "paths": [
           "*"
+        ]
+      },
+      {
+        "appID": "6T87TH788S.com.mikolbi",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "V6K5DXY8Y8.com.mikolbi.app",
+        "paths": [
+          "/MainTabNavigation/ServiciosStack/Recharge/*"
+        ]
+      },
+      {
+        "appID": "HYA6JCR3E6.com.miKolbit",
+        "paths": [
+          "/MainTabNavigation/ServiciosStack/Recharge/*"
         ]
       }
     ]
